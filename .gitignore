@@ -1,2 +1,19 @@
-.sass-cache/
-*.css.map
+# Build and Release Folders
+bin/
+bin-debug/
+bin-release/
+/Exo 01/.sass-cache
+/Exo 02/correction/.sass-cache
+
+# Other files and folders
+.settings/
+
+# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
+# should NOT be excluded as they contain compiler settings and other important
+# information for Eclipse / Flash Builder.
+
+# Ide config
+.idea/*
+.DS_Store
+
+.sass-cache
