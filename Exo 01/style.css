@@ -42,7 +42,7 @@ li {
 }
 /* container */
 .container {
-    border: 1px solid darkred;
+    /* border: 1px solid darkred; */
     margin-left: 160px;
     margin-right: 160px;
 }
@@ -68,4 +68,15 @@ figure {
 }
 .article1 {
     margin-left: 10px;
+}
+
+/* aside */
+.derniers {
+    background: url("images/bg_news.jpg") no-repeat;
+    display: inline-block;
+    width: 60%;
+
+}
+.ouverture {
+    display: inline-block;
 }
