@@ -59,9 +59,9 @@ section {
     margin-bottom: 30px;
 
 }
-h2 .green {
-    text-align: right;
+.green {
     text-decoration: none;
+    padding-left: 460px;
 
     color: #19b519;
 }
