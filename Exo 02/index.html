@@ -1,24 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Exercise 02</title>
-        <link rel="stylesheet" href="css/sass/style.css">
+        <link rel="stylesheet" href="sass/style.css">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.css">
+        <link rel="stylesheet" href="css/bootstrap/bootstrap.css">
+        <script href="js/bootstrap/bootstrap.js"></script>
+        <script href="js/bootstrap/bootstrap.min.js"></script>
+
     </head>
-    <body>
-        <header class="header">
-            <nav>
-                <ul>
-                    <li><a href=""></a>Home</li>
-                    <li><a href=""></a>Features</li>
-                    <li><a href=""></a>Pages</li>
-                    <li><a href=""></a>Gallery</li>
-                    <li><a href=""></a>Blog</li>
-                    <li><a href=""></a>Contact</li>
-                </ul>
-            </nav>
-        </header>
+    <body id="homepage">
+        <div class="container">
+            <header class="row">
+                <div class="col-md-6 col-sm-12">
+                    <img src="img/page-logo.png">
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <nav>
+                        <ul>
+                            <li><a href="">Home</a></li>
+                            <li><a href="">Features</a></li>
+                            <li><a href="">Pages</a></li>
+                            <li><a href="">Gallery</a></li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+            </header> <!-- end header -->
+
+            <aside class="row" id="slider">
+                <div class="col-md-8 col-sm-12">
+                    <img src="img/slider/slider2.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h1>
+                        this is wonderful. Wonder is a beautiful multipurpose html/css theme
+                    </h1><br><br>
+                    <p>
+                        For us, the product package represents the core media within shoper marketing.
+                    </p>
+                </div>
+            </aside>
+            <aside class="row" id="photos">
+                <h2 class="col-md-12 col-sm-12"><span class="text-warning">take a look</span> at our work</h2>
+                <div class="col-md-3 col-sm-12">
+                    <img src="img/work-1.jpg">
+                    <div class="dinausor">
+                        <h3 class="text-warning">bad dinausor</h3>
+                        not so bad really
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="img/work-2.jpg">
+                    <div class="dinausor">
+                        <h3 class="text-warning">bad dinausor</h3>
+                        not so bad really
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="img/work-3.jpg">
+                    <div class="dinausor">
+                        <h3 class="text-warning">bad dinausor</h3>
+                        not so bad really
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <img src="img/work-4.jpg">
+                    <div class="dinausor">
+                        <h3 class="text-warning">bad dinausor</h3>
+                        not so bad really
+                    </div>
+                </div>
+            </aside>
+            <aside class="row" id="latest-news">
+                <div class="col-md-6 col-sm-12">
+                    <h2 class="col-md-12 col-sm-12"><span class="text-warning">from the blog</span> all the latest news</h2>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <img src="img/blog-1.jpg" alt="blog-1" class="img-fluid">
+
+                        </div>
+                        <div class="col-md-6 col-sm-12">
+                            <h1>you are super awesome</h1>
+                            <p>Posted on: Aug 14, 2013.<br> Posted by: Admin</p>
+                        </div>
+                    </div><br>
+                    <p>Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Et la mise en page impression. <a href="#">Read More</a></p>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                    <h2 class="col-md-12 col-sm-12"><span class="text-warning"> recent video</span> created by as</h2>
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/YzyiZNY9htQ" frameborder="0" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+
+
+            <footer class="row">
+                <div class="col-md-3 col-sm-12 footer">
+                    <h3>contact us</h3>
+                    <div class="footer-logo">
+                        <img src="img/footer-logo.png" alt="Footer">
+                    </div>
+                    <p>Wonder Bunker<br>6064 Amazing st,<br>Madrid, Spain</p>
+                    <div>
+                        <img src="img/social-icons.png" alt="Social-icons">
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h3>latest tweets</h3>
+                    <p> @Basic dsdddsdddsd dsd sddd s sddsd<br>
+                        @Basic dsdddsdddsd dsd sddd s sddsd<br>
+                        @Basic dsdddsdddsd dsd sddd s sddsd<br>
+                        @Basic dsdddsdddsd dsd sddd s sddsd<br>
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h3>latest posts</h3>
+                    <p> @Basic dsdddsdddsd dsd sddd s sddsd<br>
+                        @Basic dsdddsdddsd dsd sddd s sddsd<br>
+                        @Basic dsdddsdddsd dsd sddd s sddsd<br>
+                        @Basic dsdddsdddsd dsd sddd s sddsd<br>
+                    </p>
+
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <h3>flicker photos</h3>
+                    <div class="row flicker">
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/1.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/2.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/3.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/4.jpg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/5.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/6.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/7.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/8.jpg">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/9.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/10.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/11.jpg">
+                        </div>
+                        <div class="col-md-3 col-sm-12">
+                            <img src="img/flickr/12.jpg">
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="copyright">
+                    <div class="col-md-6 col-sm-12 copyright">
+                        <p>Copyright 2012 Wonder Theme. All Rights Reserved.</p>
+                    </div>
+                    <div class="col-md-6 col-sm-12">
+                        <nav>
+                            <ul>
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Features</a></li>
+                                <li><a href="">Pages</a></li>
+                                <li><a href="">Gallery</a></li>
+                                <li><a href="">Blog</a></li>
+                                <li><a href="">Contact</a></li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </footer>
+        </div>
     </body>
 </html>
