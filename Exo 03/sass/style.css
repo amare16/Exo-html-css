@@ -1,0 +1,51 @@
+/* body */
+#body {
+  background-color: rgba(59, 61, 85, 0.89);
+  margin-top: 20px; }
+  #body header {
+    background-color: yellow; }
+    #body header li {
+      display: inline-block;
+      padding: 10px;
+      margin-right: 10px; }
+      #body header li:hover {
+        background-color: red;
+        cursor: pointer; }
+  #body aside {
+    background-color: violet;
+    height: 600px;
+    border: 15px solid black; }
+    #body aside .blog {
+      background-color: white; }
+      #body aside .blog .blog-blog1 {
+        background-color: #007bff; }
+        #body aside .blog .blog-blog1 hr {
+          border-top: dotted 1px; }
+      #body aside .blog .creation-beaches {
+        background-color: #0c5460; }
+        #body aside .blog .creation-beaches hr {
+          border-top: dotted 1px; }
+        #body aside .blog .creation-beaches .row .btn-comments, #body aside .blog .creation-beaches .row .btn-read {
+          font-size: 15px; }
+      #body aside .blog .brazilian-vacation {
+        background-color: #1e7e34; }
+        #body aside .blog .brazilian-vacation hr {
+          border-top: dotted 1px; }
+        #body aside .blog .brazilian-vacation .row .btn-comments, #body aside .blog .brazilian-vacation .row .btn-read {
+          font-size: 15px; }
+      #body aside .blog .jamaica-secrets {
+        background-color: #721c24; }
+        #body aside .blog .jamaica-secrets hr {
+          border-top: dotted 1px; }
+        #body aside .blog .jamaica-secrets .row .btn-comments, #body aside .blog .jamaica-secrets .row .btn-read {
+          font-size: 15px; }
+      #body aside .blog .prev-next-page {
+        background-color: #f1b0b7; }
+        #body aside .blog .prev-next-page .pagination {
+          width: 100%; }
+          #body aside .blog .prev-next-page .pagination li {
+            padding: 10px; }
+    #body aside .our-blog-news {
+      background-color: #e6e6e6; }
+
+/*# sourceMappingURL=style.css.map */
