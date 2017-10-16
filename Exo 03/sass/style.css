@@ -2,50 +2,64 @@
 #body {
   background-color: rgba(59, 61, 85, 0.89);
   margin-top: 20px; }
-  #body header {
-    background-color: yellow; }
-    #body header li {
-      display: inline-block;
-      padding: 10px;
-      margin-right: 10px; }
-      #body header li:hover {
-        background-color: red;
-        cursor: pointer; }
-  #body aside {
-    background-color: violet;
-    height: 600px;
-    border: 15px solid black; }
-    #body aside .blog {
-      background-color: white; }
-      #body aside .blog .blog-blog1 {
-        background-color: #007bff; }
-        #body aside .blog .blog-blog1 hr {
-          border-top: dotted 1px; }
-      #body aside .blog .creation-beaches {
-        background-color: #0c5460; }
-        #body aside .blog .creation-beaches hr {
-          border-top: dotted 1px; }
-        #body aside .blog .creation-beaches .row .btn-comments, #body aside .blog .creation-beaches .row .btn-read {
-          font-size: 15px; }
-      #body aside .blog .brazilian-vacation {
-        background-color: #1e7e34; }
-        #body aside .blog .brazilian-vacation hr {
-          border-top: dotted 1px; }
-        #body aside .blog .brazilian-vacation .row .btn-comments, #body aside .blog .brazilian-vacation .row .btn-read {
-          font-size: 15px; }
-      #body aside .blog .jamaica-secrets {
-        background-color: #721c24; }
-        #body aside .blog .jamaica-secrets hr {
-          border-top: dotted 1px; }
-        #body aside .blog .jamaica-secrets .row .btn-comments, #body aside .blog .jamaica-secrets .row .btn-read {
-          font-size: 15px; }
-      #body aside .blog .prev-next-page {
-        background-color: #f1b0b7; }
-        #body aside .blog .prev-next-page .pagination {
-          width: 100%; }
-          #body aside .blog .prev-next-page .pagination li {
-            padding: 10px; }
-    #body aside .our-blog-news {
-      background-color: #e6e6e6; }
+  #body .container {
+    height: 100vh;
+    background-color: violet; }
+    #body .container header {
+      background-color: yellow; }
+      #body .container header li {
+        display: inline-block;
+        padding: 10px;
+        margin-right: 10px; }
+        #body .container header li:hover {
+          background-color: red;
+          cursor: pointer; }
+    #body .container aside {
+      background-color: violet;
+      border: 15px solid black; }
+      #body .container aside .blog {
+        background-color: white; }
+        #body .container aside .blog .blog-blog1 {
+          background-color: #007bff; }
+          #body .container aside .blog .blog-blog1 hr {
+            border-top: dotted 1px; }
+        #body .container aside .blog .creation-beaches {
+          background-color: #0c5460; }
+          #body .container aside .blog .creation-beaches hr {
+            border-top: dotted 1px; }
+          #body .container aside .blog .creation-beaches .row .btn-comments, #body .container aside .blog .creation-beaches .row .btn-read {
+            font-size: 15px; }
+        #body .container aside .blog .brazilian-vacation {
+          background-color: #1e7e34; }
+          #body .container aside .blog .brazilian-vacation hr {
+            border-top: dotted 1px; }
+          #body .container aside .blog .brazilian-vacation .row .btn-comments, #body .container aside .blog .brazilian-vacation .row .btn-read {
+            font-size: 15px; }
+        #body .container aside .blog .jamaica-secrets {
+          background-color: #721c24; }
+          #body .container aside .blog .jamaica-secrets hr {
+            border-top: dotted 1px; }
+          #body .container aside .blog .jamaica-secrets .row .btn-comments, #body .container aside .blog .jamaica-secrets .row .btn-read {
+            font-size: 15px; }
+        #body .container aside .blog .prev-next-page {
+          background-color: #f1b0b7; }
+          #body .container aside .blog .prev-next-page .pagination {
+            width: 100%; }
+            #body .container aside .blog .prev-next-page .pagination li {
+              padding: 10px; }
+      #body .container aside .our-blog-news {
+        background-color: #e6e6e6; }
+        #body .container aside .our-blog-news .blog-news1 {
+          background-color: #868e96; }
+    #body .container footer .footer-row1 {
+      background-color: greenyellow;
+      border: 1px solid red; }
+      #body .container footer .footer-row1 .twitter {
+        height: 159.2px;
+        background-image: url("../images/bg_twitter.jpg"); }
+    #body .container footer .footer-copyright {
+      background-color: beige;
+      border: 1px solid yellow;
+      font-size: 10px; }
 
 /*# sourceMappingURL=style.css.map */
